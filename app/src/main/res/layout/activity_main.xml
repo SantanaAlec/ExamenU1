@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertidor de grados"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/twC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°C"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <EditText
+            android:id="@+id/etC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="84dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/twF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°F"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <EditText
+            android:id="@+id/etF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="143dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/twK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°K"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="201dp" />
+
+        <EditText
+            android:id="@+id/etK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="201dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnGC"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:backgroundTint="@color/gray"
+            android:text="°C"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="284dp" />
+
+        <Button
+            android:id="@+id/btnGF"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:backgroundTint="@color/gray"
+            android:text="°F"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="284dp" />
+
+        <Button
+            android:id="@+id/btnGK"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:backgroundTint="@color/gray"
+            android:text="°K"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="284dp" />
+    </TableRow>
+
+</TableLayout>
